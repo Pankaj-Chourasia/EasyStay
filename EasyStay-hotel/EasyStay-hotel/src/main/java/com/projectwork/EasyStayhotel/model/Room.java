@@ -3,10 +3,8 @@ package com.projectwork.EasyStayhotel.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.apache.commons.lang3.RandomStringUtils;
-
 import java.math.BigDecimal;
 import java.sql.Blob;
 import java.util.ArrayList;
@@ -16,7 +14,6 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
-// This is a entity class
 class Room {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
