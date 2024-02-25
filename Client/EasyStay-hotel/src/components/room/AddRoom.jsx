@@ -1,5 +1,7 @@
-import React from 'react'
-import { addRoom  } from '../utils/ApiFunctions'
+
+// import { addRoom  } from '../utils/ApiFunctions'
+import React, { useState } from 'react';
+
 import RoomTypeSelector from '../common/RoomTypeSelector'
 
 const AddRoom = () => {
@@ -20,21 +22,21 @@ if(name === "roomPrice")
 {
   if(!isNaN(value))
   {
-  value.parseInt(value)
+  value = parseInt(value)
 }
 else{
   value = ""
 }
 }
+
 setNewRoom({...newRoom,[name]: value})
   }
-
-const handleImageChange = (e) =>{
-  const selectedImage = e.target.files[0]
-  setNewRoom({...newRoom,Photo:selectedImage})
-  setImagePreview(URL.createObjectURL(selectedImage))
-
-}
+  const handleImageChange = (e) => {
+    const selectedImage = e.target.files[0];
+    setNewRoom({ ...newRoom, photo: selectedImage });
+    setImagePreview(URL.createObjectURL(selectedImage));
+  }
+  
 
 const handleSubmit = async(e) =>{
   e.preventDefault()

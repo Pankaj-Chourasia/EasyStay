@@ -2,7 +2,7 @@ import axios from "axios"
 
 export const api = axios.create({
 
-    bsaeURL : "http://localhost:9192"
+    baseURL : "http://localhost:9192"
 })
 
 // function add new room to the database
@@ -23,14 +23,13 @@ export async function addRoom(photo,roomType,roomPrice)
     }
 
 }
-//this function gets all romm types from database
-export async function getRoomTypes()
-{
-    try{
-        const response = await api.get("/rooms/room-types")
-        return response.data
-    }
-    catch(error){
-        throw new Error("Eror fetching room types")
-    }
+/* This function gets all room types from thee database */
+export async function getRoomTypes() {
+	try {
+		const response = await api.get("/rooms/room/types")
+		return response.data
+	} catch (error) {
+		throw new Error("Error fetching room types")
+	}
 }
+  

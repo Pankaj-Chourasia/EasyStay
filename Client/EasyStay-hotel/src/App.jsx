@@ -1,10 +1,8 @@
 import React from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "/node_modules/bootstrap/dist/js/bootstrap.min.js"
-import AddRoom from "./components/room/AddRoom"
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import AddRoom from "./components/room/AddRoom.jsx"
 function App()
 {
   return <>
