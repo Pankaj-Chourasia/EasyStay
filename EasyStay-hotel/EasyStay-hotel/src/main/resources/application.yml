@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     username: root
-    password: IAmHER0@02
+    password: *******
     url: jdbc:mysql://localhost:3306/easyStay_hotel_db
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
