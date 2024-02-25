@@ -31,6 +31,7 @@ public class BookedRoom {
     private int numOfChildren;
     @Column(name = "total_guest")
     private int totalNumOfGuest;
+    @Setter
     @Column(name = "confirmation_Code")
     private String bookingConfirmationCode;
 
@@ -50,10 +51,6 @@ public class BookedRoom {
     public void setNumOfChildren(int numOfChildren) {
         this.numOfChildren = numOfChildren;
         calculateTotalNumberOfGuest();
-    }
-
-    public void setBookingConfirmationCode(String bookingConfirmationCode) {
-        this.bookingConfirmationCode = bookingConfirmationCode;
     }
 
 }

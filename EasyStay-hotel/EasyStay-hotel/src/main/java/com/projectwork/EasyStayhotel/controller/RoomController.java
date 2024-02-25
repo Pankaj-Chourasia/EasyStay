@@ -3,6 +3,7 @@ package com.projectwork.EasyStayhotel.controller;
 
 import java.math.BigDecimal;
 
+import com.projectwork.EasyStayhotel.model.Room;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
