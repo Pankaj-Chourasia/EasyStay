@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext } from "react"
-import jwt_decode from "jwt-decode"
+//import jwt_decode from "jwt-decode"
+import { jwtDecode } from "/node_modules/.vite/deps/jwt-decode.js";
 
 
 export const AuthContext = createContext({
