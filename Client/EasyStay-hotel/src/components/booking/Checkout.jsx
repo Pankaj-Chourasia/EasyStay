@@ -63,7 +63,7 @@ const Checkout = () => {
 										</tr>
 										<tr>
 											<th>Price per night:</th>
-											<td>${roomInfo.roomPrice}</td>
+											<td>Rs{roomInfo.roomPrice}</td>
 										</tr>
 										<tr>
 											<th>Room Service:</th>
