@@ -7,15 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="EasyStayHotel-backend" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="EasyStay-hotel" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="EasyStay-hotel" options="-parameters" />
+      <module name="EasyStayHotel-backend" options="-parameters" />
     </option>
   </component>
 </project>
