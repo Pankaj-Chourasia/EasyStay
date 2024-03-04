@@ -65,7 +65,7 @@ Follow these steps to set up the project locally:
 Contributions are welcome! Please check out the Contributing Guidelines for more details.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE)
 
 ## Acknowledgments
 
