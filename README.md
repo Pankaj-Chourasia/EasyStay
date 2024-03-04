@@ -62,7 +62,7 @@ Follow these steps to set up the project locally:
    java -jar EasyStayHotelApplication.jar
    ```
 ## Contributing
-Contributions are welcome! Please check out the Contributing Guidelines for more details.
+Contributions are welcome! Please check out the [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ## License
 This project is licensed under the [MIT License](LICENSE)
